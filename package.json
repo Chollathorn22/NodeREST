@@ -4,16 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node src/index.js",
     "format": "prettier --write *.js",
-    "dev":"nodemon src/index.js"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.2",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "sequelize": "^6.37.0",
+    "sqlite3": "5.0.2"
   },
   "devDependencies": {
     "nodemon": "^3.0.3",
